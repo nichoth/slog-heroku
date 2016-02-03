@@ -1,3 +1,4 @@
+require('dotenv').config();
 var http = require('http');
 var data = require('./data.json');
 var mongodb = require('mongodb');
