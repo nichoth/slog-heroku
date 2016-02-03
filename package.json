@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nichoth/slog-heroku/issues"
   },
-  "homepage": "https://github.com/nichoth/slog-heroku#readme"
+  "homepage": "https://github.com/nichoth/slog-heroku#readme",
+  "dependencies": {
+    "kerberos": "0.0.18",
+    "mongodb": "^2.1.4"
+  }
 }
