@@ -1,3 +1,4 @@
+require('dotenv').config({ silent: true });
 var http = require('http');
 var data = require('./data.json');
 var mongodb = require('mongodb');
@@ -24,7 +25,6 @@ mongodb.MongoClient.connect(URI, function(err, db) {
       resp.write(JSON.stringify(docs, null, 2));
 
       resp.end('</pre>');
-      db.close();
 
     });
 
