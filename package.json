@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "heroku local -f Procfile.dev -p 8000"
+    "heroku-dev": "heroku local -f Procfile.dev -p 8000",
+    "dev": "nf start -j Procfile.dev -p 8000"
   },
   "repository": {
     "type": "git",
