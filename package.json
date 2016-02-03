@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/nichoth/slog-heroku#readme",
   "dependencies": {
+    "dotenv": "^2.0.0",
     "kerberos": "0.0.18",
     "mongodb": "^2.1.4"
   },
   "devDependencies": {
-    "dotenv": "^2.0.0",
     "nodemon": "^1.8.1"
   }
 }
