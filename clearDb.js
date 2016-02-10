@@ -1,3 +1,4 @@
+require('dotenv').config({ silent: true });
 var mongodb = require('mongodb');
 var URI = process.env.MONGOLAB_URI;
 
